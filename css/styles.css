@@ -113,9 +113,9 @@ h2 {
 }
 
 .text-area {
-    margin: 20px 0;
-    padding: 10px;
-    background-color: #e0e0e0;
+    margin: 15px 0;
+    padding: 5px;
+    background-color: rgba(236, 235, 235, 0.2);
     border-radius: 5px;
     text-align: left;
 }
