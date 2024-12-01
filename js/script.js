@@ -77,7 +77,7 @@ function updateUsdtPrices() {
 
 function updateCurrentDate() {
     const currentDate = new Date();
-    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    const options = { year: 'numeric', month: 'numeric', day: 'numeric' };
     document.getElementById('current-date').textContent = currentDate.toLocaleDateString(undefined, options);
 }
 
