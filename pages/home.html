@@ -3,33 +3,26 @@
         <p>Текстовая область над информером. Здесь можно разместить любую информацию, которую вы хотите показать пользователям перед отображением курсов.</p>
     </div>
         <div class="informer">
-            <h1 class="header">Курс на <span id="current-date"></span></h1>
-            <div class="price-display">
-                <div class="left-column">
-                    <h2>TON/USD</h2>
-                </div>
-                <div class="right-column">
-                    <div class="buy-price">
-                        <h2>Покупка: <span id="ton-price-minus-3"></span> ₽</h2>
-                    </div>
-                    <div class="sell-price">
-                        <h2>Продажа: <span id="ton-price-plus-3"></span> ₽</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="price-display">
-                <div class="left-column">
-                    <h2>USDT/RUB</h2>
-                </div>
-                <div class="right-column">
-                    <div class="buy-price">
-                        <h2>Покупка: <span id="usdt-price-minus-3"></span> ₽</h2>
-                    </div>
-                    <div class="sell-price">
-                        <h2>Продажа: <span id="usdt-price-plus-3"></span> ₽</h2>
-                    </div>
-                </div>
-            </div>
+            <table>
+                <tr>
+                    <td colspan="3"><h1 class="header">КУРС НА <span id="current-date"></span></h1></td>
+                </tr>
+                <tr>
+                    <td><h2>ПОКУПКА</h2></td>
+                    <td></td>
+                    <td><h2>ПРОДАЖА</h2></td>
+                </tr>
+                <tr>
+                    <td><h2><span id="ton-price-minus-3" class="moscow-font"></span> ₽</h2></td>
+                    <td><h2>TON</h2></td>
+                    <td><h2><span id="ton-price-plus-3" class="moscow-font"></span> ₽</h2></td>
+                </tr>
+                <tr>
+                    <td><h2><span id="usdt-price-minus-3" class="moscow-font"></span> ₽</h2></td>
+                    <td><h2>USDT</h2></td>
+                    <td><h2><span id="usdt-price-plus-3" class="moscow-font"></span> ₽</h2></td>
+                </tr>
+            </table>
         </div>
     <div class="text-area bottom">
         <p>Текстовая область под информером. Здесь можно разместить любую информацию, которую вы хотите показать пользователям после отображения курсов.</p>
