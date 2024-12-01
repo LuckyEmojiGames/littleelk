@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'MOSCOW2024';
+    src: url('../fonts/MOSCOW2024.otf') format('woff2'),
+         url('../fonts/MOSCOW2024.otf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -89,28 +97,9 @@ body {
     margin-bottom: 10px;
 }
 
-.price-display {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.left-column, .right-column {
-    flex: 1;
-    padding: 5px;
-}
-
-.left-column {
-    text-align: left;
-}
-
-.right-column {
-    text-align: right;
-}
-
-.buy-price, .sell-price {
-    margin: 5px 0;
+.moscow-font {
+    font-family: 'MOSCOW2024', sans-serif;
+    color: #e21822;
 }
 
 h2 {
