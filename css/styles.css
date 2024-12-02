@@ -128,36 +128,21 @@ h2 {
     margin-bottom: 0;
 }
 
-.form-group {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    text-align: center;
-    background-color: #282829;
-    padding: 20px;
-    border-radius: 10px;
-    border: 5px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-    width: 90%;
-    max-width: 90%;
-    margin: 0 auto;
-}
-
 input, select {
-    margin: 0 10px;
     padding: 5px;
-    width: 100px;
+    width-max: 100px;
+    height-max: 30px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
 select {
-    width: 75px;
+    width-max: 100px;
+    height: 30px;
 }
 
 button {
-    margin-left: 10px;
-    padding: 10px 20px;
+    padding: 10px;
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -171,8 +156,8 @@ button:hover {
 
 #result {
     margin-top: 20px;
-    font-size: 1.2em;
-    color: #333;
+    font-size: 1em;
+    color: #cacacd;
 }
 
 @media (max-width: 600px) {
