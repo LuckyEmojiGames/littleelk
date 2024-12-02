@@ -27,35 +27,22 @@ body {
     width: 100%;
 }
 
-#header .logo {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#header .logo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 #header nav {
     display: flex;
     gap: 20px;
+    position: fixed;
 }
 
 #header nav a {
     text-decoration: none;
     color: #333;
     font-size: 1em;
+    position: fixed;
 }
 
 #header nav a:hover {
     text-decoration: underline;
+    position: fixed;
 }
 
 #content {
