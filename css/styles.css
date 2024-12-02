@@ -131,16 +131,16 @@ h2 {
 input, select {
     text-align: center;
     width-max: 100px;
-    height-max: 30px;
+    height-max: 50px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    padding-top: 6px;
-    padding-bottom: 6px;
 }
 
 input {
     width: 70px;
     width-max: 100px;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
 select {
