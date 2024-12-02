@@ -134,13 +134,13 @@ input, select {
     height-max: 30px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 input {
     width: 70px;
     width-max: 100px;
-    padding-top: 5px;
-    padding-bottom: 5px;
 }
 
 select {
