@@ -139,7 +139,8 @@ input, select {
 input {
     width: 70px;
     width-max: 100px;
-    height: 28px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 select {
