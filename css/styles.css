@@ -129,20 +129,22 @@ h2 {
 }
 
 input, select {
-    padding: 5px;
-    width-max: 60px;
+    text-align: center;
+    width-max: 100px;
     height-max: 30px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
 input {
-    width: 60px;
-    height: 20px;
+    width: 70px;
+    width-max: 100px;
+    height: 28px;
 }
 
 select {
     height: 30px;
+    width: 70px;
 }
 
 button {
