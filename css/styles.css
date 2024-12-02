@@ -22,6 +22,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
+    position: fixed;
+    width: 100%;
 }
 
 #header .logo {
@@ -79,6 +82,7 @@ body {
     width: 90%;
     max-width: 600px;
     margin: 0 auto;
+    margin-top: 35px;
 }
 
 .informer table {
@@ -126,6 +130,10 @@ h2 {
 
 .text-area.bottom {
     margin-bottom: 0;
+}
+
+.text-area.title {
+    padding: 0 5px 0 5px;
 }
 
 input, select {
