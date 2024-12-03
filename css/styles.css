@@ -173,7 +173,6 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: left;
     cursor: pointer;
     background-color: rgba(84, 82, 82, 0.9);
     border-radius: 10px 10px 0 0;
@@ -182,6 +181,7 @@ button:hover {
 
 .faq-question h2 {
     margin: 0;
+    text-align: left;
     font-size: 1em;
     color: #f4f4f4;
 }
