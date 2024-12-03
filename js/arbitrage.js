@@ -3,7 +3,7 @@ function calculateArbitrage() {
     const months = parseInt(document.getElementById('months').value);
 
     if (isNaN(amount) || isNaN(months)) {
-        document.getElementById('result').textContent = 'Please enter valid numbers.';
+        document.getElementById('result').textContent = 'Проверьте правильность заполненных полей. Убедитесь, что поле, где вы указываете сумму арбитража, не содержат пробелов, точек и запятых. Сумма должна указываться только целым числом. В поле "Месяц" выберите срок, в течение которого хотите получать доход с арбитража.';
         return;
     }
 
