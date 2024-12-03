@@ -8,16 +8,16 @@ function calculateArbitrage() {
     }
 
     // Расчет по формуле: (amount - 2%) + 68% = intermediate_result
-    const intermediateResult = (amount - (amount * 0.02)) + (amount * 0.68);
+    const intermediateResult = (amount + (amount * 0.015));
 
     // intermediate_result - amount = profit
     const profit = intermediateResult - amount;
 
     // profit * months = total_profit
-    const totalProfit = profit * months;
+    const totalProfit = profit * months * 20;
 
     // total_profit - 30% = final_result
-    const finalResult = totalProfit - (totalProfit * 0.30);
+    const finalResult = totalProfit;
 
     document.getElementById('result').textContent = `Ваш доход: ${finalResult.toFixed(2)} ₽`;
 }
